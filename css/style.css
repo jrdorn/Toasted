@@ -1,1 +1,47 @@
+/* || General Setup  */
+
 /* https://cssgradient.io/ */
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+
+/* alternative box model */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #e8e4db;
+}
+
+
+
+/* || Typography */
+html {
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+
+h2 {
+    color: #372921;
+}
+
+p {
+    color: #706b67: 
+}
+
+/* || Index */
+
+/* || Menu */
+
+/* || Delivery */
+
+/* || Contact */
