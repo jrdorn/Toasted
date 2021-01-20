@@ -1,7 +1,5 @@
 /* || General Setup  */
 
-/* https://cssgradient.io/ */
-
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
 body {
@@ -27,6 +25,44 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+/* || Grid layout */
+
+.main-head {
+  grid-area: header;
+}
+
+.main-nav {
+  grid-area: nav;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+
+.story {
+  grid-area: story;
+}
+
+.map {
+  grid-area: map;
+}
+
+.main-footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  gap: 2em;
+  grid-template-areas:
+    "header"
+    "nav"
+    "carousel"
+    "story"
+    "map"
+    "footer";
 }
 
 /* || Typography */
