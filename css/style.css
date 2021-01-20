@@ -83,6 +83,33 @@ p {
 
 /* || Index */
 
+/* header */
+
+header {
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  color: #372921;
+}
+
+.filter-logo {
+  filter: invert(18%) sepia(30%) saturate(708%) hue-rotate(327deg)
+    brightness(96%) contrast(89%);
+  /* color: #4F332B; */
+}
+
+/* nav */
+
+/* carousel */
+
+/* story */
+
+/* map */
+
+/* footer */
+
 /* || Menu */
 
 /* || Delivery */
