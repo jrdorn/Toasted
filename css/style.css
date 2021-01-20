@@ -4,6 +4,21 @@
 
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
+body {
+  background-color: #ffffff;
+}
+
+section {
+  background-color: #e8e4db;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
 /* alternative box model */
 html {
   box-sizing: border-box;
@@ -14,16 +29,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-    background-color: #ffffff;
-}
-
-section {
-    background-color: #e8e4db;
-}
-
-
-
 /* || Typography */
 html {
   font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
@@ -31,11 +36,13 @@ html {
 }
 
 h2 {
-    color: #372921;
+  color: #372921;
 }
 
 p {
-    color: #706b67: 
+  color: #706b67;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* || Index */
