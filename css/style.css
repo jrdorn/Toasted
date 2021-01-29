@@ -162,3 +162,43 @@ footer {
 /* || Delivery */
 
 /* || Contact */
+
+/* test */
+
+#activate-div {
+  display: none;
+}
+
+.hamburger {
+  width: 7vw;
+  cursor: pointer;
+}
+
+.hamburger:after,
+.hamburger:before,
+.hamburger div {
+  background-color: #000;
+  border-radius: 3px;
+  content: "";
+  display: block;
+  height: 0.7rem;
+  margin: 7px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#activate-div:checked ~ label .hamburger:before {
+  background-color: #000;
+  transform: translateY(18px) rotate(135deg);
+}
+
+#activate-div:checked ~ label .hamburger:after {
+  background-color: #000;
+  transform: translateY(-18px) rotate(-135deg);
+}
+
+#activate-div:checked ~ label .hamburger div {
+  background-color: #000;
+  transform: scale(0);
+}
+
+/* test */
