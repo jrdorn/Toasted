@@ -294,6 +294,7 @@ footer {
 
 .contact {
   grid-area: contact;
+  text-align: center;
 }
 
 .map {
@@ -302,10 +303,12 @@ footer {
 
 .bus {
   grid-area: bus;
+  text-align: center;
 }
 
 .delivery {
   grid-area: delivery;
+  text-align: center;
 }
 
 .main-footer {
@@ -328,8 +331,25 @@ footer {
 
 /* business hours table */
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
 tr > * {
+  border: 0.1rem solid #706b67;
   color: #706b67;
   font-size: 1.5rem;
   line-height: 1.5;
+  padding: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+/* table zebra striping */
+
+table tr:nth-child(even) {
+  background-color: #e8e8e6;
 }
