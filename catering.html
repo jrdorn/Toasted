@@ -3,48 +3,72 @@
     <head>
         <meta charset='utf-8'>
         <title>Toasted - Bagels & More</title>
-
+        <link rel='shortcut icon' href='img/toasted-favicon.png' type='image/x-icon'>
         <link rel='stylesheet' href='css/style.css'>
     </head>
     <body>
         <!-- header -->
-        <header>
+        <header class='main-head'>
+            <img src='img/md_donut.svg' class='filter-logo'>
             <h1>Toasted</h1>
         </header>
 
         <!-- navbar -->
+
         <nav>
-            <ul>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>Menu</a></li>
-                <li><a href='#'>Delivery</a></li>
-                <li><a href='#'>Catering</a></li>
-                <li><a href='#'>Contact</a></li>
-            </ul>
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="menu.html"><li>Menu</li></a>
+                <a href="delivery.html"><li>Delivery</li></a>
+                <a href="#"><li>Catering</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+              </ul>
         </nav>
 
-        <main>
-            <section>
-                <h2>Bagel carousel</h2>
-                <img>
-            </section>
+        
+        <!-- carousel -->
+
+        <section>
+            <h2>Catering</h2>
 
 
+            <div class="slider">
+                <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                <div class="slider__inner">
+                <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+                    <img class="slider__txt" src='img/rachel-mcdermott-unsplash.jpeg'>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                    <img class="slider__txt" src='img/ryan-darin-unsplash.jpg'>
+                </div>
+                <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                    <img class="slider__txt" src='img/tara-evans-unsplash.jpg'>      </div>
+                <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                    <img class="slider__txt" src='img/andy-hay-unsplash.jpg'>      </div>
+                </div>
+            </div>
 
-            <section>
-                <h2>Our Story</h2>
-                <p>paragraph</p>
-            </section>
+        </section>
 
-            <section>
-                <h2>Map</h2>
-                <img>
-            </section>
-        </main>
 
+        <!-- story -->
+        <section class='story'>
+            <h2>Our Story</h2>
+            <p>Founded in 1932, Toasted specializes in hand-crafted bagels and spreads. We strive to serve our customers cutting-edge new flavors and beloved classics. Call us at (555) 555-555 or come down and try us for youself!</p>
+        </section>
+
+
+        <!-- map -->
+        <section class='map'>
+            <h2>Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d380513.7159859942!2d-88.01214778988322!3d41.83339250495681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1611638341368!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
 
         <!-- footer -->
-        <footer>
+        <footer class='main-footer'>
             <p>ⓒ 2021 by Toasted. All rights reserved</p>
         </footer>
     </body>
