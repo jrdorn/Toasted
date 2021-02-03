@@ -106,6 +106,10 @@ h1 {
   letter-spacing: 0.3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .filter-logo {
   filter: invert(18%) sepia(30%) saturate(708%) hue-rotate(327deg)
     brightness(96%) contrast(89%);
@@ -124,7 +128,6 @@ ul {
 
 ul a {
   flex: 1;
-  text-decoration: none;
   font-size: 2rem;
   color: #706b67;
 }
