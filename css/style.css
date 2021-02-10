@@ -98,6 +98,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1em;
 }
 
 h1 {
@@ -283,6 +284,11 @@ footer {
 
 /* || Delivery */
 
+.delivery p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 /* || Contact */
 
 /* contact grid */
@@ -356,11 +362,4 @@ tr > * {
 
 table tr:nth-child(even) {
   background-color: #e8e8e6;
-}
-
-/* delivery */
-
-.delivery p {
-  margin-left: 1em;
-  margin-right: 1em;
 }
