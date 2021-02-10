@@ -282,46 +282,121 @@ footer {
 
 /* || Menu */
 
+/* menu grid  */
+
+.menubfast {
+  grid-area: menubfast;
+  text-align: center;
+}
+
+.menulunch {
+  grid-area: menulunch;
+  text-align: center;
+}
+
+.menubagels {
+  grid-area: menubagels;
+  text-align: center;
+}
+
+.menuspreads {
+  grid-area: menuspreads;
+  text-align: center;
+}
+
+.menudrinks {
+  grid-area: menudrinks;
+  text-align: center;
+}
+
+#menu {
+  display: grid;
+  gap: 2em;
+  grid-template-areas:
+    "header"
+    "nav"
+    "menubfast"
+    "menulunch"
+    "menubagels"
+    "menuspreads"
+    "menudrinks"
+    "footer";
+  grid-template-columns: 100%;
+}
+
 /* || Delivery */
 
-.delivery p {
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-/* || Contact */
-
-/* contact grid */
-
-.main-head {
-  grid-area: header;
-}
-
-.main-nav {
-  grid-area: nav;
-}
-
-.contact {
-  grid-area: contact;
-  text-align: center;
-}
-
-.map {
-  grid-area: map;
-}
-
-.bus {
-  grid-area: bus;
-  text-align: center;
-}
+/* delivery grid */
 
 .delivery {
   grid-area: delivery;
   text-align: center;
 }
 
-.main-footer {
-  grid-area: footer;
+#delivery {
+  display: grid;
+  gap: 2em;
+  grid-template-areas:
+    "header"
+    "nav"
+    "delivery"
+    "map"
+    "footer";
+  grid-template-columns: 100%;
+}
+
+/* general formatting */
+
+.delivery p {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+/* || Catering */
+
+/* catering grid */
+
+.catering {
+  grid-area: catering;
+  text-align: center;
+}
+
+.breakfast {
+  grid-area: breakfast;
+  text-align: center;
+}
+
+.lunch {
+  grid-area: lunch;
+  text-align: center;
+}
+
+#catering {
+  display: grid;
+  gap: 2em;
+  grid-template-areas:
+    "header"
+    "nav"
+    "catering"
+    "breakfast"
+    "lunch"
+    "footer";
+  grid-template-columns: 100%;
+}
+
+/* || Contact */
+
+/* contact grid */
+
+.contact {
+  grid-area: contact;
+  text-align: center;
+}
+
+.bus {
+  grid-area: bus;
+  text-align: center;
 }
 
 #contact {
@@ -333,7 +408,6 @@ footer {
     "contact"
     "map"
     "bus"
-    "delivery"
     "footer";
   grid-template-columns: 100%;
 }
