@@ -337,6 +337,7 @@ footer {
 table {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
   table-layout: fixed;
   border-collapse: collapse;
 }
@@ -355,4 +356,11 @@ tr > * {
 
 table tr:nth-child(even) {
   background-color: #e8e8e6;
+}
+
+/* delivery */
+
+.delivery p {
+  margin-left: 1em;
+  margin-right: 1em;
 }
