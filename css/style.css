@@ -122,18 +122,18 @@ a {
 /* nav */
 /* IMPLEMENT JS NAV HAMBURGER MENU IN FUTURE */
 
-ul {
+#ul-nav {
   list-style-type: none;
   display: flex;
 }
 
-ul a {
+#ul-nav a {
   flex: 1;
   font-size: 2rem;
   color: #706b67;
 }
 
-ul a:hover {
+#ul-nav a:hover {
   color: #bd9575;
 }
 
