@@ -128,7 +128,7 @@ a {
 }
 
 #ul-nav a {
-  flex: 1;
+  flex: auto;
   font-size: 2rem;
   color: #706b67;
 }
@@ -144,7 +144,11 @@ a {
 }
 
 .slider {
-  height: 100%;
+  /* height: 100%; */
+  /* height: 50em; */
+  width: 97vw;
+  height: 50vh;
+  margin-bottom: 2em;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
@@ -264,10 +268,20 @@ a {
   text-align: center;
 }
 
+.story p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 /* map */
 
 .map {
   text-align: center;
+}
+
+.map iframe {
+  margin-bottom: 2em;
+  width: 100%;
 }
 
 /* footer */
