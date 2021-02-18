@@ -55,7 +55,7 @@ html {
 
 #index {
   display: grid;
-  gap: 2em;
+  gap: 1em;
   grid-template-areas:
     "header"
     "nav"
@@ -321,7 +321,7 @@ footer {
 
 #menu {
   display: grid;
-  gap: 2em;
+  gap: 1em;
   grid-template-areas:
     "header"
     "nav"
@@ -345,7 +345,7 @@ footer {
 
 #delivery {
   display: grid;
-  gap: 2em;
+  gap: 1em;
   grid-template-areas:
     "header"
     "nav"
@@ -384,7 +384,7 @@ footer {
 
 #catering {
   display: grid;
-  gap: 2em;
+  gap: 1em;
   grid-template-areas:
     "header"
     "nav"
@@ -411,7 +411,7 @@ footer {
 
 #contact {
   display: grid;
-  gap: 2em;
+  gap: 1em;
   grid-template-areas:
     "header"
     "nav"
