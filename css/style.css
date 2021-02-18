@@ -144,10 +144,7 @@ a {
 }
 
 .slider {
-  /* height: 100%; */
-  /* height: 50em; */
-  width: 97vw;
-  height: 50vh;
+  height: 30em;
   margin-bottom: 2em;
   position: relative;
   overflow: hidden;
@@ -166,6 +163,9 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+.slider_img {
+  width: 100%;
 }
 .slider__nav {
   width: 1rem;
@@ -281,7 +281,7 @@ a {
 
 .map iframe {
   margin-bottom: 2em;
-  width: 100%;
+  width: 90%;
 }
 
 /* footer */
