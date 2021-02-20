@@ -59,8 +59,8 @@ html {
   grid-template-areas:
     "header"
     "nav"
-    "carousel"
     "story"
+    "carousel"
     "map"
     "footer";
   grid-template-columns: 100%;
@@ -437,9 +437,9 @@ tr > * {
   color: #706b67;
   font-size: 1.5rem;
   line-height: 1.5;
-  padding: 2em;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* table zebra striping */
