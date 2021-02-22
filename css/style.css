@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
 body {
-  background-color: #ffffff;
+  background-color: #e8e4db;
 }
 
 section {
-  background-color: #e8e4db;
+  background-color: #ffffff;
 }
 
 html,
@@ -393,6 +393,20 @@ footer {
     "lunch"
     "footer";
   grid-template-columns: 100%;
+}
+
+/* font */
+
+h3 {
+  font-size: 1.75rem;
+  color: #372921;
+}
+
+/* margins */
+
+.catering p {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 /* || Contact */
